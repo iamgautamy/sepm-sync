@@ -5,6 +5,7 @@ import psutil
 import math
 import shutil
 
+
 #CPU INPUT
 cpu_og = str(cpuinfo.get_cpu_info()['brand_raw'])
 cpu_og = cpu_og.split(' ')
